@@ -1,0 +1,92 @@
+body {
+  background: #eee;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-gap: 2px;
+  justify-content: center;
+  margin: 20px auto;
+  position: relative;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  position: relative;
+  cursor: pointer;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 8px auto;
+}
+
+.you {
+  background: #66e066;
+}
+
+.friend {
+  background: #3366ff;
+}
+
+#lineCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#scoreboard {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+#controls {
+  margin-top: 10px;
+}
+
+#restartBtn {
+  padding: 8px 20px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#winnerMessage {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
+  display: none;
+}
+
+#info {
+  display: inline-block;
+  background: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  margin-left: 5px;
+  line-height: 20px;
+}

@@ -2,7 +2,7 @@
 using HTML, Javascript and CSS
 
 # About
-It is a 10*10 board game based on Artificial intelligence(AI). This AI will play against you to achieve five items in a row earlier than you. In a nutshell, if you can place five inputs(balls) horizontally, vertically, or diagonally in an adjacent order, then Congratulations! You are the winner!
+It is a 10*10 board game for 2 players. Your friend will be playing against you to achieve five items in a row earlier than you. In a nutshell, if you can place five inputs(balls) horizontally, vertically, or diagonally in an adjacent order, then Congratulations! You win!
 
 # How to play?
 1. Go to live site
